@@ -112,12 +112,12 @@ All the segments are optional and can be enabled or disabled in a config file.
 
 ### Git Clone
 
-    $ git clone https://github.com/chris-marsh/pureline.git
+    $ git clone https://github.com/afourman/pureline.git
     $ cp pureline/configs/powerline_full_256col.conf ~/.pureline.conf
 
 * Source the `pureline` script by adding the following line to your `.bashrc` or `.profile`, whichever is used:
 
-    source ~/pureline/pureline ~/.pureline.conf
+    source ~/pureline/pureline ~/pureline/configs/powerline_full_256col.conf
 
 The powerline fonts need more effort to work on tty screens, so a useful tip is to only source PureLine if you are on a gui;
 
